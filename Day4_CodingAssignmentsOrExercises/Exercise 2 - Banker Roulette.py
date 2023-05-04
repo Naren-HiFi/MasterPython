@@ -54,7 +54,7 @@ person_who_will_pay = names[random_choice]
 print(person_who_will_pay + " is going to buy the meal today!")
 
 
-# Alternative way to generate random number using random
+# Alternative way to generate random number using random.choice() function
 
 random_name = random.choice(names)
 print(f"{random_name} is going to buy the meal today")
