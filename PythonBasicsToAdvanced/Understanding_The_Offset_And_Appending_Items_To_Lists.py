@@ -19,4 +19,4 @@ states_of_america[2] = "New Jersey"
 states_of_america.append("La La Land")
 states_of_america.extend(["Jurassic Park", "Disney Land"])
 
-print("States list in the US are: "+ str(states_of_america))
+print("States list in the US are: "+ str(states_of_america[0]))
