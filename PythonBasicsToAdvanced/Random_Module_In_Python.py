@@ -18,3 +18,9 @@ print(f"Generate random floating point numbers: {random_float}")
 random_float_between_zero_and_five = random.uniform(0,5)
 print("Generate random floating point numbers between 0 and 5: "+ str(random_float_between_zero_and_five))
 
+# Python Random choice() Method
+# The choice() method returns a randomly selected element from the specified sequence.
+# The sequence can be a string, a range, a list, a tuple or any other kind of sequence.
+fruits_list = ['Pomegranate','Apple','Red Banana']
+print(random.choice(fruits_list))
+
