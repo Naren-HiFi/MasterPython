@@ -13,7 +13,7 @@ programming_dictionary["Loop"] = "The action of doing something over and over ag
 
 # Create an empty dictionary
 empty_dictionary = {}
-
+#
 # Wipe an existing diictionary
 # programming_dictionary = {}
 # print(programming_dictionary)
