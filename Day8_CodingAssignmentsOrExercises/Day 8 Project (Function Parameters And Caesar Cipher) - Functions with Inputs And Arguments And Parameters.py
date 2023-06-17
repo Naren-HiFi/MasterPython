@@ -1,7 +1,5 @@
 '''
 
-      Day 8 Project (Function Parameters And Caesar Cipher) - Functions with Inputs And Arguments And Parameters
-
 '''
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
@@ -41,7 +39,3 @@ while not should_end:
     if restart == "no":
         should_end = True
         print("Goodbye")
-
-
-
-
