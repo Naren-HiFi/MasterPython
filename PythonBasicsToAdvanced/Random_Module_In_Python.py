@@ -24,3 +24,7 @@ print("Generate random floating point numbers between 0 and 5: "+ str(random_flo
 fruits_list = ['Pomegranate','Apple','Red Banana']
 print(random.choice(fruits_list))
 
+fruit_items = len(fruits_list)
+print(fruit_items)
+random_fruit = random.randint(0,fruit_items-1)
+print(fruits_list[random_fruit])
