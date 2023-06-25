@@ -32,4 +32,13 @@ travel_vlog_list = [
      }
 ]
 
+print(travel_vlog_list)
+print("\n" * 2)
+
+entry = travel_vlog_list[1]
+country = entry["country"]
+total_visits = entry["total_visits"]
+
+print(f'{country}, {total_visits}')
+
 #
