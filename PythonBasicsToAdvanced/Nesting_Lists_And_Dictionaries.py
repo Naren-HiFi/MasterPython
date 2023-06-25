@@ -19,6 +19,8 @@ travel_vlog_dictionary = {
     "Germany": {"cities_visited":["Berlin", "Hamburg", "Stuttgart"],"total_visits": 5}
 }
 
+print(travel_vlog_dictionary["France"].get("cities_visited"))
+
 # Nesting a dictionary in a list
 
 travel_vlog_list = [

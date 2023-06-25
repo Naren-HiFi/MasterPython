@@ -1,7 +1,8 @@
-from art import logo,versus_logo
+from art import logo, versus_logo
 
 from game_data import data
 import random
+
 
 def clear() -> None:
     """Clear the terminal."""
@@ -29,6 +30,7 @@ def check_answer(guess, a_followers, b_followers):
         return guess == "a"
     else:
         return guess == "b"
+
 
 def game():
     print(logo)
@@ -64,7 +66,6 @@ def game():
 
 
 game()
-
 
 '''
  
@@ -180,8 +181,6 @@ Instagram (364k) to B - Selena Gomez (174k).
  Hope that makes sense :-)
 
 '''
-
-
 
 # Generate a random account from the game data.
 
