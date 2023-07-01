@@ -20,6 +20,7 @@ travel_vlog_dictionary = {
 }
 
 print(travel_vlog_dictionary["France"].get("cities_visited"))
+print(travel_vlog_dictionary["France"].get("total_visits"))
 
 # Nesting a dictionary in a list
 
